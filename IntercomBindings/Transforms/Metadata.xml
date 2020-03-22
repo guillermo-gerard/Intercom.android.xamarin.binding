@@ -1,0 +1,60 @@
+<metadata>
+  <!--
+  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+  
+  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
+  -->
+
+  <remove-node path="/api/package[@name='io.intercom.com.bumptech.glide']" />
+  <remove-node path="/api/package[@name='io.intercom.com.bumptech.glide.request.target']" />
+  <remove-node path="/api/package[@name='io.intercom.com.bumptech.glide.request.transition']" />
+  <remove-node path="/api/package[@name='io.intercom.com.bumptech.glide.load.data']" />
+  <remove-node path="/api/package[@name='io.intercom.com.bumptech.glide.load.engine']" />
+  <remove-node path="/api/package[@name='io.intercom.com.bumptech.glide.load.engine.executor']" />
+  <remove-node path="/api/package[@name='io.intercom.com.bumptech.glide.load.engine.bitmap_recycle']" />
+
+  <remove-node path="/api/package[@name='io.intercom.okio']" />
+  
+  <remove-node path="/api/package[@name='io.intercom.com.google.gson']" />
+  <remove-node path="/api/package[@name='io.intercom.com.google.gson.internal']" />
+  <remove-node path="/api/package[@name='io.intercom.com.google.gson.internal.bind']" />
+
+  <remove-node path="/api/package[@name='io.intercom.android.sdk.models']" />
+  <remove-node path="/api/package[@name='io.intercom.android.sdk.store']" />
+  <remove-node path="/api/package[@name='io.intercom.android.sdk.conversation.composer']" />
+  <remove-node path="/api/package[@name='io.intercom.android.sdk.middleware']" />
+ 
+  <remove-node path="/api/package[@name='io.intercom.com.squareup.otto']" />
+
+  <!-- Build error(binding):
+  CS0507 'Http2Connection.PingRunnable.Execute()': cannot change access modifiers when overriding 'protected' inherited member 'NamedRunnable.Execute()'
+  Metadata.xml XPath method reference: path="/api/package[@name='io.intercom.okhttp3.internal.http2']/class[@name='Http2Connection.PingRunnable']/method[@name='execute' and count(parameter)=0]" -->
+  <attr path="//api/package[@name='io.intercom.okhttp3.internal.http2']/class[@name='Http2Connection.PingRunnable']/method[@name='execute' and count(parameter)=0]"  name="visibility">protected</attr>
+
+   <!-- Build error(Fitmo):
+  error: Listener is not public in Header; cannot be accessed from outside package io.intercom.okhttp3.internal.http2.Header.Listener -->
+  <!--<attr path="/api/package[@name='io.intercom.okhttp3.internal.http2']/class[@name='Header']" name="visibility">public</attr>
+  <attr path="/api/package[@name='io.intercom.okhttp3.internal.http2']/interface[@name='Header.Listener']" name="visibility">public</attr>
+  <attr path="/api/package[@name='io.intercom.okhttp3.internal.http2']/interface[@name='Header.Listener']/method[@name='onHeaders' and count(parameter)=1 and parameter[1][@type='io.intercom.okhttp3.Headers']]" name="visibility">public</attr>-->
+  <remove-node path="/api/package[@name='io.intercom.okhttp3.internal.http2']/interface[@name='Header.Listener']" />
+
+  
+  <remove-node path="/api/package[@name='io.intercom.com.bumptech.glide.load.engine.cache']" />
+  <remove-node path="/api/package[@name='io.intercom.com.bumptech.glide.load.model']" />
+  <remove-node path="/api/package[@name='io.intercom.com.bumptech.glide.load.resource.drawable']" />
+  <remove-node path="/api/package[@name='io.intercom.com.bumptech.glide.manager']" />
+  <remove-node path="/api/package[@name='io.intercom.com.bumptech.glide.provider']" />
+  <remove-node path="/api/package[@name='io.intercom.com.bumptech.glide.util']" />
+  <remove-node path="/api/package[@name='io.intercom.com.bumptech.glide.load.data.mediastore']" />
+  <remove-node path="/api/package[@name='io.intercom.com.bumptech.glide.request.animation']" />
+
+  <remove-node path="/api/package[@name='io.intercom.android.sdk.metrics']" />
+  <remove-node path="/api/package[@name='io.intercom.android.sdk.inbox']" />
+  <remove-node path="/api/package[@name='io.intercom.android.sdk.views.holder']" />
+  <remove-node path="/api/package[@name='io.intercom.android.sdk.nexus']" />
+  
+  <remove-node path="/api/package[@name='io.intercom.android.sdk']/class[@name='User']" />
+</metadata>
+

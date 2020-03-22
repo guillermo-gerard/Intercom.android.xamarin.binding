@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntercomBindings", "IntercomBindings\IntercomBindings.csproj", "{4798C169-688F-4309-9A0E-A417E4B0BF33}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AndroidComposerBindings", "AndroidComposerBindings\AndroidComposerBindings.csproj", "{70006271-3FD4-4B0D-9A14-45B77EC882F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AndroidComposerGalleryBindings", "AndroidComposerGalleryBindings\AndroidComposerGalleryBindings.csproj", "{5F80FEC4-0C9D-4678-A3B9-ABC33FA193DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntercomGcmBindings", "IntercomGcmBindings\IntercomGcmBindings.csproj", "{313C0287-3445-4DCF-A6C0-AC3137D47B04}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntercomFcmBindings", "IntercomFcmBindings\IntercomFcmBindings.csproj", "{8F886D19-3686-42F9-9295-BDC7C559F6BB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4798C169-688F-4309-9A0E-A417E4B0BF33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4798C169-688F-4309-9A0E-A417E4B0BF33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4798C169-688F-4309-9A0E-A417E4B0BF33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4798C169-688F-4309-9A0E-A417E4B0BF33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70006271-3FD4-4B0D-9A14-45B77EC882F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70006271-3FD4-4B0D-9A14-45B77EC882F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70006271-3FD4-4B0D-9A14-45B77EC882F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70006271-3FD4-4B0D-9A14-45B77EC882F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F80FEC4-0C9D-4678-A3B9-ABC33FA193DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F80FEC4-0C9D-4678-A3B9-ABC33FA193DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F80FEC4-0C9D-4678-A3B9-ABC33FA193DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F80FEC4-0C9D-4678-A3B9-ABC33FA193DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{313C0287-3445-4DCF-A6C0-AC3137D47B04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{313C0287-3445-4DCF-A6C0-AC3137D47B04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{313C0287-3445-4DCF-A6C0-AC3137D47B04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{313C0287-3445-4DCF-A6C0-AC3137D47B04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F886D19-3686-42F9-9295-BDC7C559F6BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F886D19-3686-42F9-9295-BDC7C559F6BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F886D19-3686-42F9-9295-BDC7C559F6BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F886D19-3686-42F9-9295-BDC7C559F6BB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {80D82D67-285F-4C56-B344-322E07F325BC}
+	EndGlobalSection
+EndGlobal
